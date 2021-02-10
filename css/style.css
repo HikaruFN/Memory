@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*Body*/
+/*Common*/
 body{
     background-color: #add8e6;
     font-family: Nerko One;
@@ -16,6 +16,7 @@ body{
     font-size: 90px;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-weight: bolder;
 }
 /*carte*/
 .riga{
@@ -39,7 +40,7 @@ body{
     display: none;
 
 }
-.nome-carta{
+.text{
     display: none;
 }
 /*Hover Carta*/
@@ -50,10 +51,71 @@ body{
     display: inline-block;
     width: 100%;
 }
-.carta:hover nome-carta{
+.carta:hover .text{
     display: inline-block;
     color: #e21c85;
     font-size: 30px;
     position: absolute;
     bottom: 0%;
+    left: 0%;
     padding-left: 50px; 
+}
+/*Carte Speciali*/
+.speciale{
+    background-color: white;
+    height: 250px;
+    width: 200px;   
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.img-speciale{
+    display: inline-block;
+    width: 100%;
+}
+.text-speciale{
+    display: inline-block;
+    color: #e21c85;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    padding-left: 50px;
+}
+.speciale2{
+    background-color: white;
+    height: 250px;
+    width: 200px;   
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.img-speciale2{
+    display: inline-block;
+    width: 100%;
+}
+.text-speciale2{
+    display: inline-block;
+    color: #e67919;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    padding-left: 50px;
+}
+/*Footer*/  
+.footer{
+    color: black;
+    position: absolute;
+    padding-left: 45%;
+    font-size: larger;
+}   
+

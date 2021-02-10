@@ -1,0 +1,18 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Body*/
+body{
+    background-color: #add8e6;
+    font-family: Nerko One;
+}
+/*Titolo*/
+.titolo{
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 50px;
+}
